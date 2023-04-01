@@ -3,7 +3,7 @@
 	"displayName": "elipses",
 	"description": "Elipses Programming Language Syntax-Highlighting(.elip)",
 	"publisher": "ExCyber",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"icon": "assets/elipses-logo.png",
 	"engines": {
 		"vscode": "^1.77.0"
