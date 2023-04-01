@@ -11,6 +11,22 @@
       "begin": "({--)",
       "end": "(--})"
     },
+    {
+      "comment": "Variables/Identifiers",
+      "name": "variable.name.elip",
+      "match": "(const)\\s*(inteiro|booleano|real)\\s*([A-Za-z_]+)",
+      "captures": {
+        "1": {
+          "name": "keyword.elip"
+        },
+        "2": {
+          "name": "keyword.elip"
+        },
+        "3": {
+          "name": "variable.name.elip"
+        }
+      }
+    },
 		{
 			"include": "#keywords"
 		},
