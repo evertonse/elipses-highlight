@@ -3,8 +3,8 @@
 	"displayName": "elipses",
 	"description": "Elipses Programming Language Syntax-Highlighting(.elip)",
 	"publisher": "ExCyber",
-	"version": "0.0.1",
-  "icon": "https://i.ibb.co/8MftG3W/elipses-logo.png",
+	"version": "0.1.0",
+	"icon": "https://i.ibb.co/8MftG3W/elipses-logo.png",
 	"engines": {
 		"vscode": "^1.77.0"
 	},
