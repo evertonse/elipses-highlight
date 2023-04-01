@@ -22,4 +22,4 @@ Syntax Highlignting for Elipses Programming Language, using Tex Grammar which is
 ![](assets/install.png)
 
 ## Also available at:
-``https://marketplace.visualstudio.com/manage/publishers/ExCyber/extensions/elipses/hub``
+``https://marketplace.visualstudio.com/items?itemName=ExCyber.elipses``
