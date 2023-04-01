@@ -1,0 +1,25 @@
+{
+  "name": "elipses",
+  "displayName": "elip",
+  "description": " elip",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "elip",
+      "aliases": ["Elipses Programming Language", "elip"],
+      "extensions": [".elip",".ELIP",".elipses"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "elip",
+      "scopeName": "source.elip",
+      "path": "./syntaxes/elip.tmLanguage.json"
+    }]
+  }
+}

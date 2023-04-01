@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Elipses Programming Language",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+    {
+      "name": "comment.line.elip",
+      "match": "\\s*((#).*)$"
+    },
+    {
+      "comment": "Fuctions",
+      "begin": "([A-Za-z_]+)\\s*",
+      "beginCaptures": {
+        "1": {
+          "name": "entity.name.function.elip"
+        }
+      },
+      "end": "(\\()"
+      
+    },
+    {
+      "comment": "Variables/Identifiers",
+      "name": "variable.name.elip",
+      "match": "([A-Za-z_]+)"
+    }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+        {
+          "name": "keyword.control.elip",
+          "match": "\\b(se|senao|entao)\\b"
+			  },
+        {
+          "name": "keyword.elip",
+          "match": "\\b(lambda|e|ou|nao|real|const|entrada|inteiro|booleano|entao|verdadeiro|falso)\\b"
+			  },
+        {
+          "comment": "binary integers",
+          "name": "constant.numeric.bin.elip",
+          "match": "\\b0b[01_]+\\b"
+        },
+        {
+          "comment": "decimal numbers",
+          "name": "constant.numeric.decimal.elip",
+          "match": "\\b\\d[\\d_]*(\\,?)[\\d_]*(?:(E)([+-])([\\d_]+))?\\b"
+        }
+      ]
+		}
+	},
+	"scopeName": "source.elip"
+}
