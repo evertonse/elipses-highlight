@@ -1,25 +1,48 @@
 {
-  "name": "elipses",
-  "displayName": "elipses",
-  "description": " elip",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.77.0"
-  },
-  "categories": [
-    "Programming Languages"
-  ],
-  "contributes": {
-    "languages": [{
-      "id": "elip",
-      "aliases": ["Elipses Programming Language", "elip"],
-      "extensions": [".elip",".ELIP",".elipses"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "elip",
-      "scopeName": "source.elip",
-      "path": "./syntaxes/elip.tmLanguage.json"
-    }]
-  }
+	"name": "elipses",
+	"displayName": "elipses",
+	"description": "Elipses Programming Language Syntax-Highlighting(.elip)",
+	"publisher": "ExCyber",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "elip",
+				"aliases": [
+					"Elipses Programming Language",
+					"elip"
+				],
+				"extensions": [
+					".elip",
+					".ELIP",
+					".elipses"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "elip",
+				"scopeName": "source.elip",
+				"path": "./syntaxes/elip.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "38c9d1bf-f0b1-4882-adaf-3417fccf3762",
+		"publisherId": "b322c936-5c7a-4771-80bf-54aae0c6dc29",
+		"publisherDisplayName": "ExCyber",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1680375067723,
+		"preRelease": false
+	}
 }
