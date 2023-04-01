@@ -13,13 +13,13 @@ Syntax Highlignting for Elipses Programming Language, using Tex Grammar which is
 
 # Search:
 
-![](assets/search.png)
+![](https://i.ibb.co/RN7dh25/search.png)
 
 
 <br>
 
 # Install:
-![](assets/install.png)
+![](https://i.ibb.co/CVPFW9W/install.png)
 
 ## Also available at:
 ``https://marketplace.visualstudio.com/items?itemName=ExCyber.elipses``
